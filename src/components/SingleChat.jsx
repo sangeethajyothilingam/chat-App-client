@@ -18,9 +18,8 @@ import ScrollableChat from "./ScrollableChat.jsx";
 import io from "socket.io-client";
 import UpdateGroupChatModal from "./UpdateGroupChat";
 
-const ENDPOINT = "http://locahost:4000";
-//
-// https://chat-app-server-phi.vercel.app
+const ENDPOINT = "https://server-puce-kappa.vercel.app";
+
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain, user }) => {

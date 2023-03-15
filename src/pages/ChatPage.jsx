@@ -11,7 +11,9 @@ const ChatPage = () => {
     let newer = window.localStorage.getItem("User");
     let newUser = JSON.parse(newer);
     setUser(newUser);
+    console.log(newer)
   }, []);
+  console.log(user)
   return (
     <div style={{ width: "100%" }}>
       {user && <SideDrawer />}
